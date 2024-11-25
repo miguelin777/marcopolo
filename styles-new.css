@@ -1,0 +1,242 @@
+/* Estilos generales */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url('images/fondoo.avif') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: linear-gradient(90deg, #FF5733, #C70039);
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #ffcccc;
+}
+
+/* Contenedor principal */
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(10px); /* Añade un efecto de desenfoque */
+  margin: 20px;
+}
+
+/* Formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+  border-color: #FF5733;
+}
+
+/* Estilos para tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px; /* Agrega espacio alrededor de la tabla */
+  background: rgba(255, 255, 255, 0.8); /* Color claro de fondo con transparencia */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra */
+  border-radius: 10px; /* Esquinas redondeadas */
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #cccccc; /* Divisiones en color gris */
+}
+
+th {
+  background: linear-gradient(90deg, #FF5733, #C70039); /* Degradado en el encabezado */
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+tr:nth-child(even) {
+  background-color: rgba(240, 240, 240, 0.8); /* Color claro para filas pares */
+}
+
+/* Estilos para botones */
+button {
+  background: linear-gradient(90deg, #FF5733, #C70039);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animaciones */
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #C70039, #900C3F);
+  transform: translateY(-3px); /* Efecto de flotación */
+}
+
+button:active {
+  background: linear-gradient(90deg, #900C3F, #581845);
+  transform: translateY(0); /* Efecto al ser seleccionado */
+}
+
+/* Estilos para botones */
+button, .u-btn {
+  background: linear-gradient(90deg, #FF5733, #C70039);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Animaciones */
+  margin: 10px 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover, .u-btn:hover {
+  background: linear-gradient(90deg, #C70039, #900C3F);
+  transform: translateY(-3px); /* Efecto de flotación */
+}
+
+button:active, .u-btn:active {
+  background: linear-gradient(90deg, #900C3F, #581845);
+  transform: translateY(0); /* Efecto al ser seleccionado */
+}
+
+/* Estilos adicionales */
+a {
+  color: #FF5733;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #C70039;
+}
+
+/* Estilos para imágenes flotantes */
+.img-flotante {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease; /* Animaciones */
+}
+
+.img-flotante:hover {
+  transform: translateY(-5px); /* Efecto de flotación */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+  filter: brightness(0.8); /* Oscurece la imagen */
+}
+
+/* Botones */
+button {
+  background-color: #FF5733;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #C70039;
+  transform: scale(1.05);
+}
+
+/* Enlaces */
+a {
+  color: #FF5733;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #C70039;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #dddddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: linear-gradient(90deg, #FF5733, #C70039);
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Animaciones */
+@keyframes slideDown {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+.header-animated {
+  animation: slideDown 1s ease-out;
+}

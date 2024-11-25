@@ -1,0 +1,33 @@
+.u-block-e916-2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+.u-block-e916-3 {
+  position: absolute;
+  left: 0;
+}
+
+.u-block-e916-4 {
+  position: absolute;
+  right: 0;
+}
+
+.u-section-1-1 .u-sheet-1 {
+  min-height: 631px;
+}
+
+.u-section-1-1 .u-image-1 {
+  width: 435px;
+  height: 525px;
+  margin: 39px auto 0 44px;
+}
+.u-section-1 .u-sheet-1 {
+  min-height: 610px;
+}
+
+.u-section-1 .u-list-1 {
+  grid-template-rows: repeat(1, auto);
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
